@@ -46,8 +46,8 @@ const Tickets = ({ ticketPromise, handleCount, selectedCard, handleResolved, res
                                         <h2 className='font-bold text-xl'>
                                             {task.title}
                                         </h2>
-                                        <p className='text-green-600 font-semibold mt-1'>
-                                            <span className=''>✅</span> Complete
+                                        <p className=' text-green-600 font-semibold mt-1'> <i className="fa-solid fa-circle-check"></i>'
+                                            Complete
                                         </p>
                                     </div>
                                 ))

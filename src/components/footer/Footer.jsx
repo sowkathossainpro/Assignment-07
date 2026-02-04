@@ -40,7 +40,7 @@ const Footer = () => {
                             <li><a href=""><i className="fa-brands fa-x-twitter bg-white rounded-full p-2 mr-3 text-black"></i>@ CS — Ticket System</a></li>
                             <li><a href=""><i className="fa-brands fa-linkedin-in bg-white rounded-full p-2 mr-3 text-black"></i>@ CS — Ticket System</a></li>
                             <li><a href=""><i className="fa-brands fa-facebook-f text-black bg-white rounded-full px-3 py-2 mr-3"></i>@ CS — Ticket System</a></li>
-                            <li><a href=""><i class="fa-solid fa-envelope bg-white rounded-full p-2 mr-3 text-black"></i>support@cst.com</a></li>
+                            <li><a href=""><i className="fa-solid fa-envelope bg-white rounded-full p-2 mr-3 text-black"></i>support@cst.com</a></li>
                         </ul>
                     </div>
                 </div>

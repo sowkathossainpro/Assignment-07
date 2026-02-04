@@ -15,13 +15,13 @@ const ticketPromise = fetchTicketData();
 function App() {
   // In progress Count state decleare
   const [count, setCount] = useState(0);
-  // Selected card State Declear
+  // Selected card State Decleare
   const [selectedCard, setSelectedCard] = useState([]);
   // Resolved State Decleare
   const [resolved, setResolved] = useState(0);
   const [resolvedTasks, setResolvedTasks] = useState([]);
   const handleCount = (singleData) => {
-    const notify = () => toast("! In Progress");
+    const notify = () => toast(<p><i className="fa-solid fa-bars-progress text-lg"></i> In Progress...</p>);
     notify();
     const newCount = count + 1;
     setCount(newCount);
@@ -29,7 +29,7 @@ function App() {
   }
 
   const handleResolved = (tasks) => {
-    const notify = () => toast("! Resolved");
+    const notify = () => toast(<p><i className="fa-solid fa-circle-check text-green-700 text-lg"></i> Complete</p>);
     notify();
     const newCount = count - 1;
     setCount(newCount);
