@@ -15,6 +15,7 @@ const ticketPromise = fetchTicketData();
 function App() {
   // In progress Count state decleare
   const [count, setCount] = useState(0);
+  // Selected card State Declear
   const [selectedCard, setSelectedCard] = useState([]);
   // Resolved State Decleare
   const [resolved, setResolved] = useState(0);
