@@ -7,7 +7,7 @@ import Tickets from './components/tickets/Tickets'
 import { ToastContainer, toast } from 'react-toastify'
 import Footer from './components/footer/Footer'
 const fetchTicketData = async () => {
-  const res = await fetch("/public/ticket.json")
+  const res = await fetch("/ticket.json")
   return res.json();
 }
 const ticketPromise = fetchTicketData();
